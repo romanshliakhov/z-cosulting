@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.44em;
+  color: #0d2840;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
+.develop-top {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 180px;
+  height: 180px;
+  margin-right: 100px;
+}
+
+.logo-img {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.develop-content {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.develop-left {
+  max-width: 850px;
+  height: 600px;
+}
+
+.develop-right {
+  width: 100%;
+}
+
+.develop-image {
+  height: 100%;
+}
+
+.develop-img {
+  width: 100%;
+  height: 100%;
+}
+
+.develop-info {
+  display: flex;
+  flex-direction: column;
+  background-color: #ecbe16;
+  padding: 75px 50px;
+}
+
+.develop-item+.develop-item {
+  margin-top: 30px;
+}
+
+.phones {
+  display: flex;    
+}
+
+.adress {
+  text-transform: uppercase;
+}
+
+.tel {
+  margin-right: 10px;
+}
